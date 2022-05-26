@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <button 
+        class="checkbox" 
+        role="switch" 
+        aria-checked="false"
+        >
+        </button>
+    </div>
+</body>
+<script>
+    checkbox.addEventListener('click,' (Event) =>) {
+    if (checkbox.classList.contains('on')){
+        checkbox.setAtribute('aria-checked', 'false');
+    } else {
+        checkbox.setAtribute('aria-checked', 'true');
+    }
+    checkbox.classList.toggle('on');
+};
+</script>
+</html>
